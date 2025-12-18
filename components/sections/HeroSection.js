@@ -11,8 +11,18 @@ export default function HeroSection() {
   const locale = useLocale();
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-primary-50 via-white to-primary-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Background Image with Overlay */}
+      
+      <div className="absolute inset-0 z-0">
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: "url('/images/hero-bg-2.jpg')" }}
+        />
+        <div className="absolute inset-0 bg-white dark:bg-gray-900 opacity-80" />
+      </div>
+      
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Animated content */}
           <motion.div

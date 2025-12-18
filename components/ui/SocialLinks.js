@@ -1,10 +1,11 @@
 'use client';
 
-import { Github, Linkedin, Facebook, Instagram, Envelope } from 'react-bootstrap-icons';
+import { Github, Linkedin, Facebook, Instagram, Envelope, StackOverflow } from 'react-bootstrap-icons';
 import { socialLinks } from '@/data/content';
 
 export default function SocialLinks({ className = '', iconSize = 24 }) {
   const links = [
+    { name: 'StackOverflow', icon: StackOverflow, url: socialLinks.stackOverflow },
     { name: 'GitHub', icon: Github, url: socialLinks.github },
     { name: 'LinkedIn', icon: Linkedin, url: socialLinks.linkedin },
     { name: 'Facebook', icon: Facebook, url: socialLinks.facebook },

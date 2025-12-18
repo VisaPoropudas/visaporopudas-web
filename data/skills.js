@@ -1,34 +1,42 @@
 export const skills = [
   {
-    category: 'Machine Learning',
+    category: 'Sales & Marketing',
     skills: [
-      { name: 'TensorFlow', level: 'intermediate' },
-      { name: 'PyTorch', level: 'intermediate' },
-      { name: 'Scikit-learn', level: 'advanced' },
+      { name: 'Business Strategy', level: 'advanced' },
+      { name: 'Stakeholder Relations', level: 'advanced' },
+      { name: 'Presentation Skills', level: 'intermediate' },
     ],
   },
   {
-    category: 'Natural Language Processing',
+    category: 'Product Management',
     skills: [
-      { name: 'NLTK', level: 'intermediate' },
-      { name: 'spaCy', level: 'intermediate' },
-      { name: 'Transformers', level: 'beginner' },
+      { name: 'Definitions', level: 'advanced' },
+      { name: 'Customer Satisfaction', level: 'advanced' },
+      { name: 'UX development', level: 'intermediate' },
     ],
   },
   {
-    category: 'Computer Vision',
+    category: 'Data Management & Analysis',
     skills: [
-      { name: 'OpenCV', level: 'intermediate' },
-      { name: 'YOLO', level: 'beginner' },
-      { name: 'Image Processing', level: 'intermediate' },
+      { name: 'SQL', level: 'advanced' },
+      { name: 'Python', level: 'intermediate' },
+      { name: 'Power BI', level: 'intermediate' },
+    ],
+  },
+   {
+    category: 'Software Development',
+    skills: [
+      { name: 'Java', level: 'advanced' },
+      { name: 'JavaScript', level: 'intermediate' },
+      { name: 'React', level: 'intermediate' },
     ],
   },
   {
     category: 'AI Tools & Platforms',
     skills: [
-      { name: 'Google Colab', level: 'advanced' },
-      { name: 'Jupyter Notebooks', level: 'advanced' },
-      { name: 'AWS SageMaker', level: 'beginner' },
+      { name: 'Claude Code', level: 'advanced' },
+      { name: 'Copilot', level: 'intermediate' },
+      { name: 'ChatGPT', level: 'intermediate' },
     ],
   },
 ];
