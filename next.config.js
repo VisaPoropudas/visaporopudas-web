@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const createNextIntlPlugin = require('next-intl/plugin');
 
-const withNextIntl = createNextIntlPlugin();
+const withNextIntl = createNextIntlPlugin('./i18n.js');
 
 const nextConfig = {
-  output: 'export',
+  // output: 'export', // Uncomment for production build
   images: {
     unoptimized: true,
   },

@@ -2,7 +2,7 @@
   "nav": {
     "home": "Home",
     "introduction": "Introduction",
-    "aiSkills": "AI Skills",
+    "skills": "Skills",
     "projects": "Projects",
     "contact": "Contact",
     "cv": "CV"
@@ -10,7 +10,7 @@
   "hero": {
     "greeting": "Hello, I'm",
     "name": "Visa Poropudas",
-    "title": "Software Developer & AI Enthusiast",
+    "title": "Software Professional & AI Developer",
     "subtitle": "Building innovative solutions with modern technologies",
     "cta": {
       "projects": "View Projects",
@@ -20,16 +20,25 @@
   "introduction": {
     "title": "Introduction",
     "aboutTitle": "About Me",
-    "aboutText": "Professional software developer with expertise in modern web technologies and artificial intelligence. Passionate about creating elegant solutions to complex problems.",
+    "aboutText": "Software Professional with expertise in modern web technologies and artificial intelligence. Passionate about creating elegant solutions to complex problems.",
     "educationTitle": "Education",
-    "educationPlaceholder": "Your educational background goes here",
+    "educationPlaceholder": "Bachelor of Business Administration, Oulu University of Applied Sciences",
     "certificatesTitle": "Certificates & Achievements",
-    "certificatesPlaceholder": "Your certificates and achievements go here"
+    "certificatesPlaceholder": "Meta Front-End Developer Professional Certificate",
+    "certificatesPlaceholder2": "Google Cybersecurity Professional Certificate"
   },
-  "aiSkills": {
-    "title": "AI Skills",
+  "skills": {
+    "title": "Skills",
     "subtitle": "Expertise in Artificial Intelligence and Machine Learning",
     "skillsPlaceholder": "Your AI skills and technologies go here"
+  },
+  "workExperience": {
+    "title": "Work Experience",
+    "subtitle": "Professional journey and career highlights"
+  },
+  "otherSkills": {
+    "title": "Other Skills",
+    "subtitle": "Technologies and tools I work with"
   },
   "projects": {
     "title": "Projects",
@@ -57,7 +66,7 @@
     "title": "Get in Touch",
     "subtitle": "Let's connect and discuss opportunities",
     "email": "Email",
-    "emailPlaceholder": "your.email@example.com",
+    "emailPlaceholder": "visa.poropudas@gmail.com",
     "social": "Social Media",
     "sendEmail": "Send Email"
   },

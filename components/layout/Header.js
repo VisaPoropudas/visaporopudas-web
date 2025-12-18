@@ -2,24 +2,22 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { useTranslations, useLocale } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import { List, X } from 'react-bootstrap-icons';
 import ThemeToggle from '../ThemeToggle';
-import LanguageSwitch from '../LanguageSwitch';
 import MobileMenu from './MobileMenu';
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const t = useTranslations('nav');
-  const locale = useLocale();
 
   const navItems = [
-    { href: `/${locale}`, label: t('home') },
-    { href: `/${locale}/introduction`, label: t('introduction') },
-    { href: `/${locale}/ai-skills`, label: t('aiSkills') },
-    { href: `/${locale}/projects`, label: t('projects') },
-    { href: `/${locale}/contact`, label: t('contact') },
-    { href: `/${locale}/cv`, label: t('cv') },
+    { href: `/`, label: t('home') },
+    { href: `/introduction`, label: t('introduction') },
+    { href: `/skills`, label: t('skills') },
+    { href: `/projects`, label: t('projects') },
+    { href: `/contact`, label: t('contact') },
+    { href: `/cv`, label: t('cv') },
   ];
 
   return (
@@ -28,7 +26,7 @@ export default function Header() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             {/* Logo */}
-            <Link href={`/${locale}`} className="flex items-center space-x-2">
+            <Link href="/" className="flex items-center space-x-2">
               <div className="text-xl font-bold text-primary-600 dark:text-primary-400">
                 VP
               </div>
@@ -53,7 +51,6 @@ export default function Header() {
             {/* Actions */}
             <div className="flex items-center space-x-3">
               <ThemeToggle />
-              <LanguageSwitch />
 
               {/* Mobile menu button */}
               <button

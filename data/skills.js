@@ -1,4 +1,4 @@
-export const aiSkills = [
+export const skills = [
   {
     category: 'Machine Learning',
     skills: [

@@ -3,11 +3,11 @@
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import Card from '../ui/Card';
-import { aiSkills } from '@/data/skills';
+import { skills } from '@/data/skills';
 import { CheckCircleFill } from 'react-bootstrap-icons';
 
-export default function AISkillsSection() {
-  const t = useTranslations('aiSkills');
+export default function SkillsSection() {
+  const t = useTranslations('skills');
 
   const levelColors = {
     beginner: 'text-blue-600 dark:text-blue-400',
@@ -35,7 +35,7 @@ export default function AISkillsSection() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-6">
-            {aiSkills.map((category, index) => (
+            {skills.map((category, index) => (
               <motion.div
                 key={category.category}
                 initial={{ opacity: 0, y: 20 }}
@@ -67,7 +67,7 @@ export default function AISkillsSection() {
             ))}
           </div>
 
-          {aiSkills.length === 0 && (
+          {skills.length === 0 && (
             <Card className="p-12">
               <p className="text-center text-gray-500 dark:text-gray-400 italic">
                 {t('skillsPlaceholder')}
