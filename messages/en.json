@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "home": "Home",
+    "introduction": "Introduction",
+    "aiSkills": "AI Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "cv": "CV"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Visa Poropudas",
+    "title": "Software Developer & AI Enthusiast",
+    "subtitle": "Building innovative solutions with modern technologies",
+    "cta": {
+      "projects": "View Projects",
+      "contact": "Get in Touch"
+    }
+  },
+  "introduction": {
+    "title": "Introduction",
+    "aboutTitle": "About Me",
+    "aboutText": "Professional software developer with expertise in modern web technologies and artificial intelligence. Passionate about creating elegant solutions to complex problems.",
+    "educationTitle": "Education",
+    "educationPlaceholder": "Your educational background goes here",
+    "certificatesTitle": "Certificates & Achievements",
+    "certificatesPlaceholder": "Your certificates and achievements go here"
+  },
+  "aiSkills": {
+    "title": "AI Skills",
+    "subtitle": "Expertise in Artificial Intelligence and Machine Learning",
+    "skillsPlaceholder": "Your AI skills and technologies go here"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Featured GitHub Projects",
+    "viewGithub": "View on GitHub",
+    "techStack": "Tech Stack",
+    "lounaspassi": {
+      "name": "Lounaspassi",
+      "description": "Description of your Lounaspassi project goes here"
+    },
+    "membershipCard": {
+      "name": "Membership Card",
+      "description": "Description of your Membership Card project goes here"
+    },
+    "bingo": {
+      "name": "Bingo",
+      "description": "Description of your Bingo project goes here"
+    },
+    "impact": {
+      "name": "Impact by XenGolf",
+      "description": "Description of your Impact by XenGolf project goes here"
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Let's connect and discuss opportunities",
+    "email": "Email",
+    "emailPlaceholder": "your.email@example.com",
+    "social": "Social Media",
+    "sendEmail": "Send Email"
+  },
+  "cv": {
+    "title": "Curriculum Vitae",
+    "download": "Download PDF",
+    "viewOnline": "View Online Version",
+    "placeholder": "Your CV content will be displayed here"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "builtWith": "Built with Next.js, React & Tailwind CSS"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "toggle": "Toggle theme"
+  }
+}

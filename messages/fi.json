@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "home": "Etusivu",
+    "introduction": "Esittely",
+    "aiSkills": "AI-taidot",
+    "projects": "Projektit",
+    "contact": "Yhteystiedot",
+    "cv": "CV"
+  },
+  "hero": {
+    "greeting": "Hei, olen",
+    "name": "Visa Poropudas",
+    "title": "Ohjelmistokehittäjä & AI-harrastaja",
+    "subtitle": "Rakennan innovatiivisia ratkaisuja moderneilla teknologioilla",
+    "cta": {
+      "projects": "Katso projektit",
+      "contact": "Ota yhteyttä"
+    }
+  },
+  "introduction": {
+    "title": "Esittely",
+    "aboutTitle": "Tietoa minusta",
+    "aboutText": "Ammattimainen ohjelmistokehittäjä, jolla on asiantuntemusta moderneista web-teknologioista ja tekoälystä. Intohimona on luoda elegantit ratkaisut monimutkaisiin ongelmiin.",
+    "educationTitle": "Koulutus",
+    "educationPlaceholder": "Koulutustietosi tulevat tähän",
+    "certificatesTitle": "Sertifikaatit ja saavutukset",
+    "certificatesPlaceholder": "Sertifikaattisi ja saavutuksesi tulevat tähän"
+  },
+  "aiSkills": {
+    "title": "AI-taidot",
+    "subtitle": "Asiantuntemus tekoälyssä ja koneoppimisessa",
+    "skillsPlaceholder": "AI-taitosi ja teknologiasi tulevat tähän"
+  },
+  "projects": {
+    "title": "Projektit",
+    "subtitle": "Esiteltyjä GitHub-projekteja",
+    "viewGithub": "Näytä GitHubissa",
+    "techStack": "Teknologiat",
+    "lounaspassi": {
+      "name": "Lounaspassi",
+      "description": "Lounaspassi-projektisi kuvaus tulee tähän"
+    },
+    "membershipCard": {
+      "name": "Jäsenkortti",
+      "description": "Jäsenkortti-projektisi kuvaus tulee tähän"
+    },
+    "bingo": {
+      "name": "Bingo",
+      "description": "Bingo-projektisi kuvaus tulee tähän"
+    },
+    "impact": {
+      "name": "Impact by XenGolf",
+      "description": "Impact by XenGolf -projektisi kuvaus tulee tähän"
+    }
+  },
+  "contact": {
+    "title": "Ota yhteyttä",
+    "subtitle": "Otetaan yhteyttä ja keskustellaan mahdollisuuksista",
+    "email": "Sähköposti",
+    "emailPlaceholder": "sinun.sposti@esimerkki.fi",
+    "social": "Sosiaalinen media",
+    "sendEmail": "Lähetä sähköposti"
+  },
+  "cv": {
+    "title": "Ansioluettelo",
+    "download": "Lataa PDF",
+    "viewOnline": "Näytä verkkoversio",
+    "placeholder": "CV-sisältösi näytetään tässä"
+  },
+  "footer": {
+    "rights": "Kaikki oikeudet pidätetään",
+    "builtWith": "Rakennettu Next.js, React & Tailwind CSS -teknologioilla"
+  },
+  "theme": {
+    "light": "Vaalea",
+    "dark": "Tumma",
+    "toggle": "Vaihda teemaa"
+  }
+}
