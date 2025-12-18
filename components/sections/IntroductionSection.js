@@ -24,8 +24,17 @@ export default function IntroductionSection() {
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">
               {t('aboutTitle')}
             </h2>
-            <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-              {t('aboutText')}
+            <p className="text-lg text-gray-600 dark:text-gray-300  mb-6">
+              With over 20 years of experience in system development and SaaS business, I've built my career on transforming complex business challenges into scalable software solutions. As Product Manager and Business Manager at NexGolf, I've led the development and growth of comprehensive web-based platforms that serve organizations across an entire industry.
+            </p>
+            <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
+              My expertise spans the full spectrum of software business: from leading cross-functional teams in development, testing, and customer service to driving B2B sales and marketing strategies that deliver real market impact. I understand that successful software products require more than just great code—they demand deep customer insight, strategic vision, and the ability to align technical capabilities with business goals.
+            </p>
+            <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
+              Throughout my career, I've focused on building solutions that don't just meet requirements but anticipate future needs. This approach has enabled me to guide teams through complete product lifecycles, from initial concept through to market-leading implementations. Whether architecting technical solutions, developing go-to-market strategies, or fostering high-performing teams, I bring a balanced perspective that combines technical depth with business acumen.
+            </p>
+            <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
+              I thrive at the intersection of technology and business, where understanding user needs, managing development processes, and delivering measurable value come together to create lasting success.
             </p>
           </div>
 

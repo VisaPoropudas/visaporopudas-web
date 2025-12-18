@@ -38,12 +38,12 @@ export default function HeroSection() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href={`/${locale}/projects`}>
+              <Link href={`/projects`}>
                 <Button size="lg">
                   {t('cta.projects')}
                 </Button>
               </Link>
-              <Link href={`/${locale}/contact`}>
+              <Link href={`/contact`}>
                 <Button size="lg" variant="outline">
                   {t('cta.contact')}
                 </Button>
