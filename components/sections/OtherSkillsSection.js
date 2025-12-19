@@ -2,12 +2,12 @@
 
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
-import { Code } from 'react-bootstrap-icons';
+import { Code, Hammer } from 'react-bootstrap-icons';
 import Card from '../ui/Card';
 import { webSkills, otherSkills } from '@/data/skills';
 
 export default function OtherSkillsSection() {
-  const t = useTranslations('otherSkills', 'webSkills');
+  const t = useTranslations('skills');
 
   return (
     <>
@@ -24,10 +24,10 @@ export default function OtherSkillsSection() {
               <Code className="w-8 h-8 text-primary-600 dark:text-primary-400" />
             </div>
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              {t('webSkills:title')}
+              {t('webSkills.title')}
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              {t('webSkills:subtitle')}
+              {t('webSkills.subtitle')}
             </p>
           </div>
 
@@ -63,13 +63,13 @@ export default function OtherSkillsSection() {
         >
           <div className="text-center mb-12">
             <div className="inline-flex items-center justify-center p-3 bg-primary-100 dark:bg-primary-900 rounded-full mb-4">
-              <Code className="w-8 h-8 text-primary-600 dark:text-primary-400" />
+              <Hammer className="w-8 h-8 text-primary-600 dark:text-primary-400" />
             </div>
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              {t('otherSkills:title')}
+              {t('otherSkills.title')}
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              {t('otherSkills:subtitle')}
+              {t('otherSkills.subtitle')}
             </p>
           </div>
 

@@ -1,9 +1,9 @@
 export const socialLinks = {
-  stackOverflow: 'https://stackoverflow.com/users/your-user-id', // Update with your actual StackOverflow profile
-  github: 'https://github.com/visaporopudas', // Update with your actual GitHub username
+  stackOverflow: 'https://stackoverflow.com/users/31608606/visa-poropudas', // Update with your actual StackOverflow profile
+  github: 'https://github.com/VisaPoropudas', // Update with your actual GitHub username
   linkedin: 'https://www.linkedin.com/in/visaporopudas',
   facebook: 'https://facebook.com/visaporopudas', // Update with your actual Facebook profile
-  instagram: 'https://instagram.com/visaporopudas', // Update with your actual Instagram handle
+  instagram: 'https://instagram.com/visaporo', // Update with your actual Instagram handle
   email: 'visa.poropudas@gmail.com', // Update with your actual email
   emailPrefix: 'visa.poropudas', // Obfuscated email for display
   emailDomain: 'gmail.com', // Obfuscated email for display
@@ -57,13 +57,31 @@ export const certificates = [
     name: 'Meta Front-End Developer Professional Certificate',
     issuer: 'Meta',
     year: '2025',
-    image: '/images/placeholders/certificate-1.jpg',
+    image: '/images/meta-front-end-developer-certificate.png',
   },
   {
-    name: 'Google Cybersecurity Professional Certificate',
+    name: 'Google Cybersecurity Professional Certificate V2',
     issuer: 'Google',
     year: '2025',
-    image: '/images/placeholders/certificate-1.jpg',
+    image: '/images/google-cybersecurity-certificate.png',
+  },
+  {
+    name: 'Microsoft Power Platform Functional Consultant',
+    issuer: 'Kajaani University of Applied Sciences',
+    year: '2025',
+    image: '/images/power-platform-certificate.png',
+  },
+   {
+    name: 'Suomen Yrittäjien Kultainen Ansioristi',
+    issuer: 'Suomen Yrittäjät ry',
+    year: '2024',
+    image: '/images/yrittajat-logo.jpg'
+  },
+  {
+    name: 'Suomen Yrittäjien Hopeinen Ansioristi',
+    issuer: 'Suomen Yrittäjät ry',
+    year: '2022',
+    image: '/images/yrittajat-logo.jpg',
   },
   // Add more certificates
 ];

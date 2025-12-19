@@ -64,7 +64,7 @@ export default function EducationSection() {
             <div className="grid md:grid-cols-2 gap-6">
               {certificates.map((cert, index) => (
                 <Card key={index} className="p-6" hover>
-                  <div className="aspect-video bg-gray-200 dark:bg-gray-700 rounded-lg mb-4" />
+                  <div className="aspect-video bg-gray-200 dark:bg-gray-700 rounded-lg mb-4" style={{ backgroundImage: `url(${cert.image})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', opacity: 0.8 }} />
                   <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
                     {cert.name}
                   </h4>

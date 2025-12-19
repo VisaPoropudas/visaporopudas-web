@@ -12,7 +12,7 @@ export const skills = [
     skills: [
       { name: 'Business Strategy', level: 'advanced' },
       { name: 'Stakeholder Relations', level: 'advanced' },
-      { name: 'Presentation Skills', level: 'intermediate' },
+      { name: 'Presentation Skills', level: 'advanced' },
     ],
   },
    {
@@ -42,36 +42,35 @@ export const skills = [
 ];
 
 export const webSkills = [
-  'React',
   'Next.js',
-  'JavaScript',
   'TypeScript',
   'Node.js',
+  'HTML5',
+  'CSS',
+  'SCSS',
   'Tailwind CSS',
   'Firebase',
   'MyQSL',
   'Git',
-  'AWS',
-  'Python'
+  'AWS'
 ];
 
 export const otherSkills = [ 
-  'SQL', 
-  'Java', 
   'Object Oriented Programming', 
+  'Data Modeling', 
+  'Database Design',
   'Agile Methodologies', 
-  'Product Management', 
   'Project Management', 
-  'React', 
-  'Node.js', 
-  'Next.js', 
-  'JavaScript', 
-  'TypeScript', 
-  'HTML', 
-  'CSS', 
-  'SCSS', 
+  'UI/UX Design Principles',
   'Claude Code', 
   'Python', 
   'Power Platform' 
+];
+
+export const languages = [
+      { lang: 'Finnish', code: 'fi', level: 'native' },
+      { lang: 'English', code: 'gb', level: 'fluent' },
+      { lang: 'Swedish', code: 'se', level: 'satisfactory' },
+      { lang: 'German', code: 'de', level: 'basic'}
 ];
 

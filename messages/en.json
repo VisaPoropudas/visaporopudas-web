@@ -28,6 +28,14 @@
     "certificatesPlaceholder2": "Google Cybersecurity Professional Certificate"
   },
   "skills": {
+      "webSkills": {
+        "title": "Web Skills",
+        "subtitle": "Web technologies and tools I work with"
+      },
+      "otherSkills": {
+        "title": "Other Skills",
+        "subtitle": "Technologies and tools I work with"
+    },
     "title": "Skills",
     "subtitle": "Technical Expertise and Proficiencies",
     "skillsPlaceholder": "Your AI skills and technologies go here"
@@ -35,14 +43,6 @@
   "workExperience": {
     "title": "Work Experience",
     "subtitle": "Professional journey and career highlights"
-  },
-  "webSkills": {
-    "title": "Web Skills",
-    "subtitle": "Web technologies and tools I work with"
-  },
-  "otherSkills": {
-    "title": "Other Skills",
-    "subtitle": "Technologies and tools I work with"
   },
   "projects": {
     "title": "Projects",
