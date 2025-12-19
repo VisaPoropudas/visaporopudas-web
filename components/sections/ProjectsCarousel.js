@@ -71,7 +71,7 @@ export default function ProjectsCarousel() {
               <SwiperSlide key={project.id} className="pb-12">
                 <Card className="overflow-hidden h-full">
                   {/* Project Image Placeholder */}
-                  <div className="aspect-video bg-gradient-to-br from-primary-100 to-primary-200 dark:from-gray-700 dark:to-gray-600" />
+                  <div className="aspect-video bg-gradient-to-br from-primary-100 to-primary-200 dark:from-gray-700 dark:to-gray-600" style={{ backgroundImage: `url(${project.image})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}/>
 
                   <div className="p-6">
                     <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-3">
@@ -79,7 +79,7 @@ export default function ProjectsCarousel() {
                     </h3>
 
                     <p className="text-gray-600 dark:text-gray-300 mb-4">
-                      {t(project.description)}
+                      {project.description}
                     </p>
 
                     {/* Tech Stack */}
