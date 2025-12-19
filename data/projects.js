@@ -1,5 +1,14 @@
 export const projects = [
   {
+    id: 'louostoslistanaspassi',
+    name: 'Ostoslista',
+    description: 'A mobile shopping list with shopping cart feature',
+    image: '/images/project-ostoslista.jpg',
+    github: 'https://github.com/visaporopudas/lounaspassi', // Update with your actual repo URL
+    techStack: ['React', 'JavaScript', 'Firebase'],
+    featured: false,
+  },
+  {
     id: 'lounaspassi',
     name: 'Lounaspassi',
     description: 'A mobile lunch pass developed for Osuuskauppa Arina. The app features secured pass usage using QR code reader to use lunches.',

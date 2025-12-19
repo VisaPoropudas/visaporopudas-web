@@ -43,11 +43,24 @@ export const workExperience = [
 ];
 
 export const education = [
-  {
+
+   {
     degree: 'Bachelor of Business Administration',
     institution: 'Oulu University of Applied Sciences',
-    year: '2003 - 2025',
+    year: '2025',
     description: 'Bachelor of Business Administration in Information Technology specializing in Software Development. Thesis on serverless React SPA Mobile Lunch Pass for Osuuskauppa Arina.',
+  },
+  {
+    degree: 'Student of Electrical Engineering',
+    institution: 'University of Oulu',
+    year: '1996 -',
+    description: 'Electrical engineering student with 145 credits.',
+  },
+  {
+    degree: 'Finnish Matriculation Examination',
+    institution: 'Oulun Lyseon lukio',
+    year: '1996',
+
   },
   // Add more education entries
 ];

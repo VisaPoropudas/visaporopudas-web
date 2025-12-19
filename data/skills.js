@@ -8,11 +8,11 @@ export const skills = [
     ],
   },
   {
-    category: 'Sales & Marketing',
+    category: 'Business Development',
     skills: [
       { name: 'Business Strategy', level: 'advanced' },
+      { name: 'Sales & Marketing', level: 'advanced' },
       { name: 'Stakeholder Relations', level: 'advanced' },
-      { name: 'Presentation Skills', level: 'advanced' },
     ],
   },
    {
