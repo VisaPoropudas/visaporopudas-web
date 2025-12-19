@@ -1,13 +1,5 @@
 export const skills = [
-  {
-    category: 'Sales & Marketing',
-    skills: [
-      { name: 'Business Strategy', level: 'advanced' },
-      { name: 'Stakeholder Relations', level: 'advanced' },
-      { name: 'Presentation Skills', level: 'intermediate' },
-    ],
-  },
-  {
+   {
     category: 'Product Management',
     skills: [
       { name: 'Definitions', level: 'advanced' },
@@ -16,11 +8,11 @@ export const skills = [
     ],
   },
   {
-    category: 'Data Management & Analysis',
+    category: 'Sales & Marketing',
     skills: [
-      { name: 'SQL', level: 'advanced' },
-      { name: 'Python', level: 'intermediate' },
-      { name: 'Power BI', level: 'intermediate' },
+      { name: 'Business Strategy', level: 'advanced' },
+      { name: 'Stakeholder Relations', level: 'advanced' },
+      { name: 'Presentation Skills', level: 'intermediate' },
     ],
   },
    {
@@ -39,6 +31,14 @@ export const skills = [
       { name: 'ChatGPT', level: 'intermediate' },
     ],
   },
+  {
+    category: 'Data Management & Analysis',
+    skills: [
+      { name: 'SQL', level: 'advanced' },
+      { name: 'Python', level: 'intermediate' },
+      { name: 'Power BI', level: 'intermediate' },
+    ],
+  },
 ];
 
 export const webSkills = [
@@ -49,7 +49,29 @@ export const webSkills = [
   'Node.js',
   'Tailwind CSS',
   'Firebase',
-  'MongoDB',
-  'Express',
+  'MyQSL',
   'Git',
+  'AWS',
+  'Python'
 ];
+
+export const otherSkills = [ 
+  'SQL', 
+  'Java', 
+  'Object Oriented Programming', 
+  'Agile Methodologies', 
+  'Product Management', 
+  'Project Management', 
+  'React', 
+  'Node.js', 
+  'Next.js', 
+  'JavaScript', 
+  'TypeScript', 
+  'HTML', 
+  'CSS', 
+  'SCSS', 
+  'Claude Code', 
+  'Python', 
+  'Power Platform' 
+];
+

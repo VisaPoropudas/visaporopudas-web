@@ -5,6 +5,8 @@ export const socialLinks = {
   facebook: 'https://facebook.com/visaporopudas', // Update with your actual Facebook profile
   instagram: 'https://instagram.com/visaporopudas', // Update with your actual Instagram handle
   email: 'visa.poropudas@gmail.com', // Update with your actual email
+  emailPrefix: 'visa.poropudas', // Obfuscated email for display
+  emailDomain: 'gmail.com', // Obfuscated email for display
 };
 
 export const workExperience = [
@@ -65,4 +67,3 @@ export const certificates = [
   },
   // Add more certificates
 ];
-export const otherSkills = [ 'SQL', 'Java', 'Object Oriented Programming', 'Agile Methodologies', 'Product Management', 'Project Management', 'React', 'Node.js', 'Next.js', 'JavaScript', 'TypeScript', 'HTML', 'CSS', 'SCSS', 'Claude Code', 'Python', 'Power Platform' ];

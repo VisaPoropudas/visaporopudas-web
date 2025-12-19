@@ -14,10 +14,11 @@ export default function Header() {
   const navItems = [
     { href: `/`, label: t('home') },
     { href: `/introduction`, label: t('introduction') },
+    { href: `/cv`, label: t('cv') },
     { href: `/skills`, label: t('skills') },
     { href: `/projects`, label: t('projects') },
     { href: `/contact`, label: t('contact') },
-    { href: `/cv`, label: t('cv') },
+    
   ];
 
   return (

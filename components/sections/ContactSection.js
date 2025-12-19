@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
-import { EnvelopeFill } from 'react-bootstrap-icons';
+import { EnvelopeFill, At } from 'react-bootstrap-icons';
 import Card from '../ui/Card';
 import Button from '../ui/Button';
 import SocialLinks from '../ui/SocialLinks';
@@ -39,7 +39,7 @@ export default function ContactSection() {
               </h3>
               <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
                 <p className="text-gray-600 dark:text-gray-300">
-                  {socialLinks.email}
+                  {socialLinks.emailPrefix}<At className="inline-block w-6 h-6 ml-1 text-gray-500 dark:text-gray-400" />{socialLinks.emailDomain}
                 </p>
                 <a href={`mailto:${socialLinks.email}`}>
                   <Button>

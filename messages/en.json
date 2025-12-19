@@ -36,6 +36,10 @@
     "title": "Work Experience",
     "subtitle": "Professional journey and career highlights"
   },
+  "webSkills": {
+    "title": "Web Skills",
+    "subtitle": "Web technologies and tools I work with"
+  },
   "otherSkills": {
     "title": "Other Skills",
     "subtitle": "Technologies and tools I work with"
