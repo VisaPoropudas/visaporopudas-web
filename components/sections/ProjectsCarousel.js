@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay, EffectCoverflow } from 'swiper/modules';
-import { Github } from 'react-bootstrap-icons';
+import { BoxArrowRight, Github } from 'react-bootstrap-icons';
 import Card from '../ui/Card';
 import Button from '../ui/Button';
 import { projects } from '@/data/projects';
@@ -100,17 +100,35 @@ export default function ProjectsCarousel() {
                     </div>
 
                     {/* GitHub Link */}
+                    {(project.github && project.publicProject) && (
                     <a
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-block"
                     >
-                      <Button size="sm">
+                      <Button size="sm" className="mr-2">
                         <Github className="w-4 h-4 mr-2" />
                         {t('viewGithub')}
                       </Button>
                     </a>
+                    )}
+
+                    {/* Live App Link */}
+                    
+                    {project.app && (
+                       <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block"
+                    >
+                      <Button size="sm" className="mr-2">
+                        <BoxArrowRight className="w-4 h-4 mr-2" />
+                        {t('appLink')}
+                      </Button>
+                    </a>
+                    )}
                   </div>
                 </Card>
               </SwiperSlide>
