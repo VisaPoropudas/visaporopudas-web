@@ -3,7 +3,9 @@ import { getMessages } from 'next-intl/server';
 import ThemeProvider from '@/components/ThemeProvider';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import CookieConsent from '@/components/CookieConsent';
 import './globals.css';
+import './cookieconsent.css';
 
 export const metadata = {
   title: 'Visa Poropudas - Software Developer & AI Enthusiast',
@@ -23,6 +25,7 @@ export default async function RootLayout({ children }) {
               <main className="flex-1 bg-white dark:bg-gray-900">{children}</main>
               <Footer />
             </div>
+            <CookieConsent />
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>

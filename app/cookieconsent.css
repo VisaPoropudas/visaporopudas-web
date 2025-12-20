@@ -1,0 +1,96 @@
+/* Custom Cookie Consent Styling */
+:root {
+  --cc-bg: #fff;
+  --cc-text: #2d4156;
+  --cc-btn-primary-bg: #2563eb;
+  --cc-btn-primary-text: #fff;
+  --cc-btn-primary-hover-bg: #1d4ed8;
+  --cc-btn-secondary-bg: #e5e7eb;
+  --cc-btn-secondary-text: #1f2937;
+  --cc-btn-secondary-hover-bg: #d1d5db;
+  --cc-toggle-bg-off: #919ea6;
+  --cc-toggle-bg-on: #2563eb;
+  --cc-toggle-bg-readonly: #d5dee2;
+  --cc-toggle-knob-bg: #fff;
+  --cc-toggle-knob-icon-color: #ecf2fa;
+  --cc-cookie-category-block-bg: #f3f4f6;
+  --cc-cookie-category-block-bg-hover: #e5e7eb;
+  --cc-section-border: #e5e7eb;
+  --cc-cookie-table-border: #e5e7eb;
+  --cc-overlay-bg: rgba(0, 0, 0, 0.5);
+  --cc-webkit-scrollbar-bg: #cfd5db;
+  --cc-webkit-scrollbar-bg-hover: #9199a0;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cc-bg: #1f2937;
+    --cc-text: #f3f4f6;
+    --cc-btn-primary-bg: #2563eb;
+    --cc-btn-primary-text: #fff;
+    --cc-btn-primary-hover-bg: #1d4ed8;
+    --cc-btn-secondary-bg: #374151;
+    --cc-btn-secondary-text: #f3f4f6;
+    --cc-btn-secondary-hover-bg: #4b5563;
+    --cc-toggle-bg-off: #4b5563;
+    --cc-toggle-bg-on: #2563eb;
+    --cc-toggle-bg-readonly: #374151;
+    --cc-cookie-category-block-bg: #374151;
+    --cc-cookie-category-block-bg-hover: #4b5563;
+    --cc-section-border: #4b5563;
+    --cc-cookie-table-border: #4b5563;
+    --cc-overlay-bg: rgba(0, 0, 0, 0.7);
+    --cc-webkit-scrollbar-bg: #4b5563;
+    --cc-webkit-scrollbar-bg-hover: #6b7280;
+  }
+}
+
+/* Ensure consent modal is visible above all content */
+#cc-main {
+  z-index: 9999 !important;
+}
+
+/* Custom styling for modal */
+#cm {
+  border-radius: 0.5rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Button styling */
+.cm__btn,
+.pm__btn {
+  border-radius: 0.375rem;
+  font-weight: 500;
+  padding: 0.625rem 1.25rem;
+  transition: all 0.15s ease-in-out;
+}
+
+.cm__btn:hover,
+.pm__btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Badge styling */
+.pm__badge {
+  background: var(--cc-toggle-bg-readonly);
+  color: var(--cc-text);
+  padding: 0.125rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+
+/* Link styling */
+#cm a,
+#pm a {
+  color: var(--cc-btn-primary-bg);
+  text-decoration: underline;
+}
+
+#cm a:hover,
+#pm a:hover {
+  color: var(--cc-btn-primary-hover-bg);
+}
