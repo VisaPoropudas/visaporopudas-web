@@ -8,8 +8,8 @@ import './globals.css';
 import './cookieconsent.css';
 
 export const metadata = {
-  title: 'Visa Poropudas - Software Developer & AI Enthusiast',
-  description: 'Professional software developer with expertise in modern web technologies and artificial intelligence.',
+  title: 'Visa Poropudas',
+  description: 'Software business professional with expertise in modern web technologies and artificial intelligence.',
 };
 
 export default async function RootLayout({ children }) {
