@@ -14,7 +14,7 @@ export const workExperience = [
     title: 'Business Manager',
     company: 'Vitec Avoine Oy',
     year: '03/2023 - 10/2024',
-    description: 'Led business development initiatives for Vitec\'s golf technology division, driving strategic partnerships and expanding market presence in the Nordic region. Orchestrated cross-functional collaboration between sales, marketing, and product teams to deliver customer-centric solutions. Spearheaded customer success programs and managed high-value stakeholder relationships, resulting in strengthened client retention.',
+    description: 'Led business development initiatives, driving strategic partnerships and expanding market presence. Orchestrated cross-functional collaboration between sales, marketing, and product teams to deliver customer-centric solutions. Spearheaded customer success programs and managed high-value stakeholder relationships, resulting in strengthened client retention.',
   },
   {
     title: 'Business Manager',
@@ -38,7 +38,7 @@ export const workExperience = [
     title: 'Product Manager',
     company: 'Nextime Solutions Oy',
     year: '03/2004 - 12/2016',
-    description: 'Built and managed golf technology products from the ground up over 12 years, establishing the foundation for what became NexGolf. Pioneered product development processes and customer engagement strategies that set industry standards. Wore multiple hats across development, sales, marketing and support, gaining comprehensive understanding of both technical implementation and business operations. Cultivated long-term customer partnerships that continued through multiple company transitions.',
+    description: 'Built and managed golf technology products from the ground up, establishing the foundation for what became NexGolf. Pioneered product development processes and customer engagement strategies that set industry standards. Wore multiple hats across development, sales, marketing and support, gaining comprehensive understanding of both technical implementation and business operations. Cultivated long-term customer partnerships that continued through multiple company transitions.',
   },
 ];
 
